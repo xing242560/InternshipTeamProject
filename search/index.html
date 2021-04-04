@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="./index.css">
+    <title>search</title>
+</head>
+
+<body>
+
+    <div id="box">
+        <input type="text" v-model="keyword" />
+        <button @click="get_search">搜索</button>
+      
+        <div class="title">历史搜索</div>
+        <ul class="his">
+            <li v-for="item in historyList" @click="jump_to(item)" >{{ item }}</li>
+        </ul>
+      
+        <ul id="result">
+            <li v-for="value in fSearch">
+                <img src="https://img1.baidu.com/it/u=2815333866,2257972376&fm=26&fmt=auto&gp=0.jpg" alt="">
+                <div>
+                    <p>{{ value.name }}</p>
+                    <p>{{ value.intro }}</p>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+
+</html>

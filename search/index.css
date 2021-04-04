@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+#result li{
+    height: 100px;
+    margin: 20px;
+}
+
+#result li div{
+    float: left;
+}

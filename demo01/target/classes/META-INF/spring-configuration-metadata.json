@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "todo",
+      "type": "com.example.demo01.hellocontroller.todolist",
+      "sourceType": "com.example.demo01.hellocontroller.todolist"
+    }
+  ],
+  "properties": [
+    {
+      "name": "todo.date",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo01.hellocontroller.todolist"
+    },
+    {
+      "name": "todo.things",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo01.hellocontroller.todolist"
+    }
+  ],
+  "hints": []
+}

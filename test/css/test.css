@@ -1,0 +1,38 @@
+body,html 
+		{
+			padding-top: 1vw;
+		}
+
+#a1
+		{
+			display: flex;
+			flex-direction: row;
+			padding-left: 2vw;
+		}
+#a1 img
+		{
+			width: 25vw;
+			height: 25vw;
+			padding: 1vw;
+		}
+#a1 table
+		{
+			border-collapse: collapse;
+			margin: 1vw;
+		}
+table td
+		{
+			padding-top: 3.5vw;
+			padding-bottom: 3.5vw;
+		}
+#demo
+		{
+			width: 70vw;
+			height: 8vw;
+		}
+#demo input
+			{
+				width: 50vw;
+				height: 6vw;
+				
+			}
